@@ -14,7 +14,7 @@ def impulso(v_i, v_f, delta_t, m):
 def momentum(v_f, peso_vaso, m):
     # Aqui se usa la formula de momentums que es
     # m1u1 + m2u2 = m1v + m2v    (Como la pelota y el vaso van juntos, la v es la misma)
-    # Despejando la ecuacion queda    (m1 * u1) / (m1 + m2)
+    # Despejando la ecuacion queda   V = (m1 * u1) / (m1 + m2)
 
     v_impacto = (m * v_f)
     v_impacto = v_impacto/(m + peso_vaso)
